@@ -1,0 +1,30 @@
+{
+  "name": "typescript-basics",
+  "version": "1.0.0",
+  "description": "This is the basic concepts of typescript",
+  "main": "./dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martincandelarioaguirre/typescript-basics.git"
+  },
+  "keywords": [
+    "Typescript"
+  ],
+  "author": "Swordfish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martincandelarioaguirre/typescript-basics/issues"
+  },
+  "homepage": "https://github.com/martincandelarioaguirre/typescript-basics#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-typescript": "^5.0.1",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "gulp-cli": "^2.2.0"
+  }
+}
