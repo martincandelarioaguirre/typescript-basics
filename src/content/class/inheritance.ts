@@ -31,9 +31,15 @@ class Dog extends Animal {
 /**
  * Class inheritance that demostrate how the code runs.
  */
-export function classInheritance() {
-    const dog = new Dog();
-    dog.bark();
-    dog.move(10);
-    dog.bark();
+export class RunCode {
+
+    /**
+     * This functions contains methods to execute all the code develop for module Inheritance.
+     */
+    run() {
+        const dog = new Dog();
+        dog.bark();
+        dog.move(10);
+        dog.bark();
+    }
 }
